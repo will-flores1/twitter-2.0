@@ -10,11 +10,14 @@
     "@portabletext/react": "^1.0.6",
     "@sanity/image-url": "^1.0.1",
     "next": "latest",
+    "next-auth": "^4.10.0",
     "next-sanity": "^0.6.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-hot-toast": "^2.3.0",
     "react-timeago": "^7.1.0",
-    "react-twitter-embed": "^4.0.4"
+    "react-twitter-embed": "^4.0.4",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
