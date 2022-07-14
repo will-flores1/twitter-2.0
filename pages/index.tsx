@@ -1,6 +1,6 @@
 import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import { Toaster } from "react-hot-toast";
 import Feed from "../components/Feed/Feed";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Widgets from "../components/Widgets/Widgets";
@@ -19,6 +19,7 @@ const Home = ({ tweets }: Props) => {
 			<Head>
 				<title>TWITTER 2.0</title>
 			</Head>
+			<Toaster />
 
 			<main className="grid grid-cols-9">
 				<Sidebar />
