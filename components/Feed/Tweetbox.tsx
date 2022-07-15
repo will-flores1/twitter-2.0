@@ -86,7 +86,7 @@ function Tweetbox({ setTweets }: Props) {
 			/>
 
 			<div className="flex flex-1 items-center pl-2">
-				<form action="flex flex-1 flex-col">
+				<form className="flex flex-1 flex-col">
 					<input
 						value={input}
 						onChange={(e) => setInput(e.target.value)}
